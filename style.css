@@ -35,7 +35,8 @@
   .insta-phone img {
     height: 42rem;
   }
-  
+  /**/
+  /*inicio do slider*/
   .box {
     
     display: flex;
@@ -71,7 +72,7 @@
     opacity: 1;
     animation: fade1 10s infinite linear;
 }
-.box .slide img:nth-child(1) {
+.box .slide img:nth-child(1) { /*pseudoelementos*/
 }
 .box .slide img:nth-child(2) {
     opacity: 0;
@@ -105,7 +106,7 @@
         opacity: 0;
     }
 }
-
+/*fim do slider*/
 
 
   
